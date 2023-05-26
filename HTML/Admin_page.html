@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inside football</title>
+    <link rel="stylesheet" href="CSS/Admin.css">
+    <style>
+        body{
+            background-color:rgb(82, 214, 211);
+            margin:0px;
+            padding:0px;
+        }
+        .head{
+            background-color:rgb(89, 104, 177);
+            display:flex;
+            flex-direction: right;
+            position:fixed;
+            margin-bottom: 50px;;
+            width:100%;
+        }
+        .img{
+            height:70px;
+            width:100px;
+            padding-top: 5px;;
+        }
+        .nav{
+            display:flex;
+            font-weight:bold;
+            font-size:20px;
+            justify-content: space-between;
+            width:900px;
+        }
+        .top:hover,.top:active{
+            background-color: yellowgreen;
+            cursor:pointer;
+            border:none;
+            border-radius:15px;
+        }
+        .top{
+            padding:0px;
+        }
+        
+        
+        .app, .join{
+            font-family:arial;
+            background-color:rgb(82, 214, 211) ;
+            height:25px;
+            font-weight:bold;
+            font-style:solid;
+            border:none;
+            border-radius:25px;
+            margin-top:10px;
+            cursor:pointer;
+            margin-right:20px;
+            justify-content:space-around;
+            
+        }
+        
+        
+        .camp{
+            height:500px;
+            width:800px;
+        }
+        .front .right{
+            float:right;
+            width:50%;
+            padding-top:80px;
+        }
+        .left{
+            display:inline-block;
+            padding:80px;
+        }
+        .about{
+            display:block;
+            background-color:rgb(89, 104, 177);
+            height:600px;
+            width:100%;
+            margin:0px;
+            display:flex;
+
+        }
+        .about .right{
+            float:right;
+            width:100%;
+            padding:0px;
+        }
+        .about .left{
+            display:inline-block;
+            padding:80px;
+            width:50%;
+        }
+        
+        .about img{
+            height:500px;
+            width:700px;
+        }   
+        .par{
+            font-family: arial;
+            font-size:20px;
+            font-weight:bold;
+            font-style:solid;
+
+        }
+
+        /* .container{
+            display:grid;
+            background-color: green;
+            height:1000px;
+            
+        } */
+        .foot{
+            background-color:rgb(89, 104, 177) ;
+            height:400px;
+            width:100%;
+            margin-top:20px;
+        
+        }
+        .logo{
+            border:none;
+            height:20px;
+            width:30px;
+        }
+        .foot .right{
+            float:right;
+            width:50%;
+            padding-top:70px;
+        }
+        .technique{
+            height:1200px;
+            width:100%;
+            margin-left:20px;
+            
+        }
+        
+    
+        .technique .img{
+            height:700px;
+            width:1200px;
+            padding:0px;
+            margin-left:25px;
+            
+
+        }
+        .tactics{
+            background-color:rgb(89, 104, 177);
+            height:1100px;
+            width:100%;
+            padding-left:30px;
+        }
+        .tactics .img{
+            padding:0px;
+            margin-left:25px;
+            height:500px;
+            width:1200px;
+            
+
+        }
+    
+        .fitness{
+            background-color:rgb(89, 104, 177);
+            height:1100px;
+            width:100%;
+            padding-left:30px;
+        }
+        .fitness .img{
+            padding:0px;
+            margin-left:25px;
+            height:500px;
+            width:1200px;
+            
+
+        }
+        .mentality{
+            background-color:rgb(89, 104, 177);
+            height:1100px;
+            width:100%;
+            padding-left:30px;
+        }
+        .mentality .img{
+            padding:0px;
+            margin-left:25px;
+            height:500px;
+            width:1200px;
+            
+
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <img class="img" src="logo.png" alt="logo">
+            <li class="nav">
+                <ol class="top">About Us</ol>
+                <ol class="top">Technique</ol>
+                <ol class="top">Tactics</ol>
+                <ol class="top">Fitness</ol>
+                <ol class="top">Mentality</ol>
+            <li>
+                <button class="app">Get the app</button>
+                <button class="join">Join Our Camp</button>
+            
+        </div>
+    </header>
+    <section>
+        <div class="front">
+            <div class="left">
+                <h1>Welcome to Inside Football</h1> 
+                <h2>Ready to take your game to next level?</h2> 
+            </div>
+            <div class="right">
+                <img class="camp" src="camp nou.jpg" alt="camp nou stadium">
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+      <div class="about"> 
+        <div class="left">
+            <h1>About Us</h1>
+            <p class="par">We are bunch of people who have been involved in this sport since a long time.
+                We are here trying to help young baller to excel in this sport.
+                We mainly deals on the core area of football that includes techniques,fitness,tactics and mentality.
+
+            </p>
+        </div>
+        <div class="right">
+            <img class="img"  src="training.jpg" alt="people training">
+        </div>
+      </div>
+      <br><br><br>
+      <div class="technique">
+        <h2 style="text-align: center;margin:0px;">Techniques</h2>
+        <div class="left">
+            <img class="img" src="neym.jpg" alt="Neymar jr showing techniques">
+        </div>
+        <div class="right">
+            <p>Football techniques refer to the various skills, maneuvers, and strategies employed by players to control the ball, outwit opponents, and achieve specific objectives on the field. Here are some key techniques used in football. <br>
+
+               1. Passing: The ability to accurately and effectively pass the ball to a teammate using different techniques such as short passes, long passes, through balls, and lofted passes. <br>
+                
+               2. Dribbling: This involves controlling the ball while moving past opponents. Dribbling techniques include using various parts of the foot, changes in speed and direction, feints, and body movements to maintain possession and create scoring opportunities. <br>
+                
+                3.Shooting: The skill of striking the ball with power and accuracy towards the goal. Different shooting techniques include volleys, lobs, chips, and shots with different parts of the foot. <br>
+                
+               4. Heading: Using the forehead to redirect or score the ball in the air. Heading techniques involve timing, judgment of flight, and utilizing different areas of the forehead for different types of headers. <br>
+                
+               5. Tackling: The act of dispossessing an opponent of the ball through legal means. Tackling techniques include slide tackles, standing tackles, and poke tackles, all performed with precision and timing to win back possession. <br>
+                
+                6.Ball Control: The ability to receive, trap, and maintain control of the ball. It involves using various parts of the body, such as feet, thighs, chest, and head, to bring the ball under control and keep it close. <br>
+                
+                7.Shielding: This technique involves using the body to protect the ball from opponents, maintaining possession, and creating space for teammates. It requires strength, balance, and awareness of surrounding players. <br>
+                
+               8. Positioning: Understanding and maintaining proper positioning on the field is crucial for players in different positions. It involves anticipating the movement of teammates and opponents, finding open spaces, and maintaining defensive shape. <br>
+                
+               9. Set Pieces: Techniques used for free kicks, corner kicks, and penalty kicks. This includes delivering accurate crosses, taking effective free kicks, and scoring from penalty spot with composure. <br>
+                
+                10.Communication: Effective communication between teammates is essential for coordinated play. Players use verbal and non-verbal cues to communicate their intentions, signal for the ball, coordinate defensive strategies, and execute set plays. <br>
+                
+                It's important for football players to continuously practice and refine these techniques through drills, training sessions, and match experience to improve their overall skills and performance on the field.</p>
+          </div>
+      </div>
+      <div class="tactics">
+        <div>
+            <h2 style="text-align: center;">Tactics</h2>
+            <p>Football tactics refer to the strategic plans and systems implemented by teams to organize their players, control the game, and achieve specific objectives. Tactics involve the positioning of players, their roles, movement patterns, and overall team structure. Here are some common football tactics: <br>
+
+               1. Formation: The formation refers to the arrangement of players on the field. Popular formations include 4-4-2, 4-3-3, 3-5-2, and 4-2-3-1, among others. The choice of formation determines the number of players in each position and their positioning in defense, midfield, and attack.  <br>
+                
+               2. Playing Style: Each team can adopt a specific playing style based on their strengths, philosophy, and the coach's vision. This can range from an attacking style focused on possession, quick passing, and creative movements, to a more defensive style emphasizing organization, solid defense, and counter-attacking opportunities. <br>
+                
+               3. Possession-based Play: This tactic involves maintaining ball possession for extended periods, with players aiming to control the game through accurate passing, movement off the ball, and maintaining a high tempo. It requires good ball control, technical ability, and the ability to create and exploit spaces. <br>
+                
+                4.Counter-Attacking: This tactic focuses on quickly transitioning from defense to attack when the team regains possession. It involves absorbing pressure, staying compact, and exploiting spaces left by the opponent's attacking movements. Counter-attacking teams rely on fast and direct attacks to catch opponents off-guard. <br>
+                
+               5. Pressing: Pressing tactics involve putting pressure on the opponent to disrupt their build-up play and force mistakes. This can be done through high-intensity pressing all over the field or selective pressing in specific areas. Effective pressing requires teamwork, coordination, and quick reactions to regain possession. <br>
+                
+               6. Wing Play: This tactic involves utilizing the wide areas of the field, with wingers or full-backs making overlapping runs, delivering crosses, and creating scoring opportunities. Wing play can stretch the opponent's defense, create width in attack, and exploit spaces on the flanks. <br>
+                
+               7. High Defensive Line: A high defensive line tactic involves positioning the defense closer to the halfway line to compress the playing space and restrict the opponent's attacking options. This tactic aims to win the ball back quickly and prevent opponents from building their attacks. <br>
+                
+                Zonal Marking or Man-to-Man Marking: Defensive marking tactics can involve zonal marking, where players defend specific areas of the field, or man-to-man marking, where each player is responsible for marking a specific opponent. The choice depends on the team's defensive strategy and the strengths of individual players. <br>
+                
+               8. Set Piece Strategies: Teams develop specific tactics for set pieces, including free kicks, corner kicks, and throw-ins. This involves positioning players strategically in the box, decoy runs, blocking opponents, and executing rehearsed plays to create scoring opportunities. <br>
+                
+                Substitutions and Formational Adjustments: Coaches may make tactical changes during a match by substituting players or adjusting the team's formation. This can be done to reinforce the defense, inject fresh attacking options, or adapt to changes in the flow of the game. <br>
+                
+                Football tactics are dynamic and can vary depending on the opponent, the context of the match, and the team's strengths and weaknesses. Successful implementation of tactics requires a deep understanding of the game, effective communication, and players who can execute the strategy effectively.</p>
+        </div>
+        <div>
+            <img class="img" src="pep.jpg" alt="football tactics">
+        </div>
+      </div>
+      <div class="fitness">
+        <div>
+            <h3 style="text-align: center;">Fitness</h3>
+            <p>Football fitness refers to the physical conditioning and fitness levels required to meet the demands of the sport. Football is a physically demanding game that requires a combination of aerobic endurance, anaerobic power, strength, speed, agility, and flexibility. Here are key aspects of football fitness: <br>
+
+                1.Aerobic Endurance: Football matches are typically played over 90 minutes, so players need good aerobic endurance to sustain high-intensity efforts throughout the game. Aerobic training, such as running, cycling, or interval training, helps improve cardiovascular fitness and the ability to cover ground efficiently. <br>
+                
+                2.Anaerobic Power: Football involves short bursts of high-intensity activity, such as sprints, accelerations, and quick changes of direction. Anaerobic training, including interval training, plyometric exercises, and speed drills, helps improve explosive power, speed, and agility. <br>
+                
+               3. Strength and Power: Football requires strength in various muscle groups to compete for the ball, hold off opponents, and execute explosive movements. Strength training, incorporating exercises like squats, deadlifts, lunges, and upper body exercises, helps build muscular strength, power, and overall body control. <br>
+                
+               4. Speed and Agility: Football players need to be quick and agile to outpace opponents, change direction rapidly, and react swiftly to game situations. Speed and agility training, including sprint drills, ladder exercises, cone drills, and shuttle runs, helps improve acceleration, deceleration, and quick change of direction abilities. <br>
+                
+                5.Flexibility and Mobility: Good flexibility and mobility are essential for football players to perform movements with a wide range of motion, prevent injuries, and recover effectively. Regular stretching exercises and mobility drills help maintain flexibility in key muscle groups and joints. <br>
+                
+               6. Balance and Coordination: Football demands excellent balance and coordination to control the ball, maintain body control during challenging movements, and execute skills with precision. Balance training exercises, such as single-leg exercises, balance boards, and coordination drills, help improve stability and control. <br>
+                
+               7. Injury Prevention: Football players are prone to various injuries, including strains, sprains, and ligament damage. Injury prevention exercises, such as strengthening the core, improving muscle balance, and incorporating functional movements, can help reduce the risk of injuries. <br>
+                
+                8.Recovery and Regeneration: Adequate rest, nutrition, and recovery strategies are vital for football players to optimize performance and reduce the risk of fatigue-related injuries. This includes proper sleep, nutrition, hydration, and active recovery techniques such as foam rolling, stretching, and low-intensity workouts. <br>
+                
+               9. Mental Fitness: Football also requires mental resilience, focus, and decision-making skills. Training techniques such as visualization, meditation, and psychological conditioning can help improve concentration, decision-making under pressure, and mental toughness. <br>
+                
+                It's important for football players to have a well-rounded training program that includes a combination of cardiovascular exercise, strength training, speed and agility drills, flexibility work, and injury prevention exercises. The training should be tailored to the specific demands of the position and the player's individual needs. Working with a qualified coach or trainer can help design a comprehensive fitness program that addresses these aspects effectively.</p>
+        </div>
+        <div>
+       <img class="img" src="fitness.jpg" alt="fitness">
+        </div>
+      </div>
+      <div>
+        <div class="mentality">
+            <h3 style="text-align: center;">Mentality</h3>
+            <p>Football mentality refers to the mindset and psychological attributes that players adopt to excel in the sport. A strong football mentality is essential for players to cope with the challenges, pressures, and adversities they may face on and off the field. Here are some key aspects of football mentality: <br>
+
+                1.Determination and Resilience: Football requires a resilient mindset to overcome setbacks, setbacks, and obstacles. Players with a strong football mentality are determined, persistent, and able to bounce back from defeats or mistakes. <br>
+                
+               2. Focus and Concentration: Football demands mental focus and concentration to make quick decisions, anticipate the game, and stay engaged throughout the match. Maintaining focus helps players execute skills, tactics, and strategies effectively. <br>
+                
+               3. Confidence and Self-Belief: Confidence is crucial for football players to perform at their best. A strong football mentality includes self-belief, a positive mindset, and the ability to trust in one's abilities and make decisive moves on the field. <br>
+                
+               4. Mental Toughness: Football is a physically and mentally demanding sport. Mental toughness enables players to stay composed under pressure, handle criticism, and perform consistently in challenging situations. <br>
+                
+                5.Teamwork and Leadership: Football is a team sport, and a strong football mentality includes valuing teamwork, collaboration, and effective communication with teammates. Leaders with a strong mentality can inspire and motivate their teammates to achieve collective goals. <br>
+                
+                6.Adaptability and Learning: Football is an ever-evolving game, and players with a strong mentality are adaptable and open to learning. They embrace new strategies, tactics, and techniques to stay ahead of the competition and continuously improve their skills. <br>
+                
+                7.Emotional Control: Emotions can impact performance on the field. Players with a strong football mentality can manage their emotions, stay focused, and make rational decisions even in high-pressure situations. <br>
+                
+                8.Professionalism and Work Ethic: A strong football mentality includes professionalism and a strong work ethic. Players with this mentality are disciplined, dedicated, and committed to their training, preparation, and continuous improvement. <br>
+                
+               9. Sportsmanship and Respect: A positive football mentality also emphasizes sportsmanship, fair play, and respect for opponents, officials, and the spirit of the game. It involves maintaining integrity, displaying good behavior, and adhering to ethical standards. <br>
+                
+                10.Goal Setting and Ambition: A strong football mentality involves setting goals, both individual and team-oriented, and having the ambition and drive to strive for success. Players with this mentality are motivated and continuously push themselves to achieve new heights. <br>
+                
+                Developing a strong football mentality is an ongoing process that requires self-reflection, mental conditioning, and support from coaches and teammates. Mental skills training, visualization techniques, and psychological strategies can help players enhance their football mentality and perform at their best.</p>
+        </div>
+        <div>
+            <img class="img" src="injury.jpg" alt="mentality">
+        </div>
+      </div>
+      <!-- <div class="container">
+        <div class="item">about us</div>
+        <div class="item">technique</div>
+        <div class="item">tactics</div>
+        <div class="item">fitness</div>
+        <div class="item">mentality</div>
+      </div> -->
+    </section>
+     <footer class="foot">
+        <div class="left">
+       <li>
+        <h3><ol>Contact Us</ol></h3>
+        <p>phone no:+977 9861524192</p>
+        <p>Adress:Kathmandu,Nepal</p>
+        <h3><ol>Our mission</ol></h3>
+         <h3><ol>App support</ol></h3>
+       </li>
+        </div>
+        <div class="right">
+            <h3>Find Us On</h3>
+        <img class="logo" href="#" src="facebook.png" alt="facebook">
+        <img class="logo" href="#" src="instagram.jpg" alt="instagram">
+        <img class="logo" href="#" src="tiktok.png" alt="tiktok">
+        <h3>Back to top? click on the logo!</h3>
+        <img class="logo" href="#" src="logo.png" alt="logo">
+        </div>
+     </footer>  
+    
+ 
+</body>
+</html>
